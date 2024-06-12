@@ -581,6 +581,10 @@ border-top:2px solid #D4DBE2;
 		height:400px;
 		margin:1.5%;
 	}
+	video{
+		width:60%;
+		height:150px;
+	}
 }
 video{
 	width:45%;

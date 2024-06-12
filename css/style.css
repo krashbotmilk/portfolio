@@ -1,0 +1,573 @@
+*{
+		margin:0;
+		padding:0;
+	/ 	box-sizing:border-box;
+	}
+	.box{
+		width:80%;
+		margin:0 auto;
+		  font-family: "Briem Hand", cursive;
+		  font-optical-sizing: auto;
+		  font-weight: <weight>;
+		  font-style: normal;
+		  background:#7B7C81;
+		  color:#686461;
+}
+	nav{
+		width:100%;
+		height:130px;
+		display:flex;
+		justify-content:space-around;
+	}
+	header{
+		width:100%;
+		height:360px;
+		display:flex;
+		justify-content:space-between;
+/*		background:#9E9B98:*/
+border-bottom:2px solid #D4DBE2;
+border-top:2px solid #D4DBE2;
+	}
+	.img1{
+		width:8%;
+		height:60px;
+		border-radius:50%;
+	}
+	.imag{
+		width:36%;
+		height:260px;
+	}
+	.img2{
+		width:100%;
+		height:320px;
+		padding:4%;
+	}
+	h1{
+/*		text-align:center;*/
+	}
+	.cont{
+		width:60%;
+		height:360px;
+		font-size:20px;
+		display:flex;
+		flex-direction:column;
+		justify-content: space-around;
+	}
+	button{
+		width:40%;
+		height:30px;
+		border:1px solid #D4DBE2;
+/*		border-radius:50%;*/
+      color: #7B586B;
+      margin-right:9%;
+	}
+	.text_nav{
+		width:40%;
+		display:flex;
+		justify-content:flex-end;
+		justify-content:space-around;
+	}
+	.image_nav{
+		width:100%;
+		height:70px;
+		display:flex;
+		justify-content:flex-start;
+		margin:2%;
+	}
+	.button_cont{
+		width:55%;
+		display:flex;
+		justify-content:space-around;
+
+	}
+	main{
+		width:100%;
+		display:flex;
+	}
+	.about_block{
+		width:52%;
+		height:1600px;
+		background:#E1DCE0;
+		margin:2%;
+	}
+	.about_image{
+		width:100%;
+		height:60px;
+		display:flex;
+		justify-content:center;
+		margin:1.5%;
+	}
+/*	.about_block p{
+  animation-duration:5s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+  from {
+    margin-left:40%;
+    width:50%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+    animation-play-state:paused;
+  }
+}*/
+	.skills_block{
+		width:48%;
+		height:1600px;
+		background:#E1DCE0;
+		margin:2%;
+		display:flex;
+		flex-direction:column;
+
+	}
+/*	.skills_block p{
+  animation-duration:5s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+  from {
+    margin-left:40%;
+    width:50%;
+  }
+  to {
+    margin-left:0%;
+    width: 100%;
+    animation-play-state:paused;
+  }
+}*/
+	.skills_image{
+		width:100%;
+		height:60px;
+		display:flex;
+		justify-content:center;
+		margin:1.5%;
+	}
+	footer{
+		width:100%;
+		height:140px;
+		display:flex;
+		justify-content:space-around;
+		background:#453C41;
+	}
+	.contact_block{
+		width:96%;
+		height:200px;
+		background:#E1DCE0;
+		margin:2%;
+	}
+	.contact_image{
+		width:100%;
+		height:60px;
+		display:flex;
+		justify-content:center;
+		margin:2%;
+	}
+	.social{
+		width:80%;
+		height:40px;
+		display:flex;
+		justify-content:space-around;
+		margin:4%;
+
+	}
+	.img3{
+		width:16%;
+		height:30px;
+	}
+	.work_block{
+		width:96%;
+		height:500px;
+		background:#E1DCE0;
+		margin:2%;
+	}
+	.work_image{
+		width:100%;
+		height:60px;
+		display:flex;
+		justify-content:center;
+		margin:1.5%;
+	}
+	.work{
+		width:80%;
+		height:40px;
+		display:flex;
+		justify-content:space-around;
+		margin:4%;
+
+	}
+	.links{
+		width:30%;
+		height:100px;
+		display:flex;
+		flex-direction:column;
+		margin:2%;
+	}
+	.forms{
+/*		width:40%;
+		height:120px;*/
+		display:flex;
+		flex-direction:column;
+		justify-content:space-around;
+		margin:2%;
+		width: 60%;
+		height:120px;
+		border: 1px solid black;
+		padding-left: 20%;
+	}
+	.but{
+		width:15%;
+		height:22px;
+	}
+	.tex{
+		width:30%;
+		height:40px;
+	}
+	h2{
+		text-align:center;
+	}
+	.img3, a{
+		width:7%;
+		height:30px;
+		margin:1.5%;
+	}
+	.pat{
+		width:100%;
+		height:200px;
+		display:flex;
+		margin:2%;
+	}
+	.filoma{
+		width:100%;
+		height:1100px;
+		margin:2%;
+		display:flex;
+		justify-content:space-around;
+		flex-direction:column;
+	}
+	.pats_1{
+		width:50%;
+		height:200px;
+		display:flex;
+		flex-direction:column;
+	}
+	.pats_1 img{
+		width:80%;
+		height:120px;
+	}
+	.pats_2{
+		width:50%;
+		height:200px;
+		display:flex;
+		flex-direction:column;
+	}
+	.pats_2 img{
+		width:80%;
+		height:120px;
+}
+	.pats_3{
+		width:50%;
+		height:200px;
+		display:flex;
+		flex-direction:column;
+	}
+	.pats_3 img{
+		width:80%;
+		height:120px;
+	}
+	.pats_4{
+		width:50%;
+		height:200px;
+		display:flex;
+		flex-direction:column;
+	}
+	.pats_4 img{
+		width:80%;
+		height:120px;
+	}
+	.work1{
+		width:50%;
+		height:400px;
+		display:flex;
+		flex-direction:column;
+	} 
+	.work2{
+		width:50%;
+		height:400px;
+		display:flex;
+		flex-direction:column;
+	}
+	.about_cont{
+		width:100%;
+		height:2000px;
+		margin:1.5%;
+		display:flex;
+		flex-direction:column;
+	}
+	h3{
+		text-align:center;
+	}
+	.skills_cont{
+		width:100%;
+		height:900px;
+		display:flex;
+		justify-content:space-around;
+		align-items:center;
+		flex-direction:column;
+	}
+	.films{
+		width:100%;
+		height:300px;
+		display:flex;
+		justify-content:space-around;
+	}
+	.films img{
+		width:90%;
+		height:200px;
+	}
+	.anime{
+		width:100%;
+		height:300px;
+		display:flex;
+		justify-content:space-around;
+	}
+	.anime img{
+		width:90%;
+		height:200px;
+	}
+	.manga{
+		width:100%;
+		height:300px;
+		display:flex;
+		justify-content:space-around;
+	}
+	.manga img{
+		width:90%;
+		height:200px;
+	}
+	.films_1{
+		width:50%;
+		height:200px;
+		display:flex;
+		flex-direction:column;
+	}
+	.films_2{
+		width:50%;
+		height:200px;
+		display:flex;
+		flex-direction:column;
+	}
+		.anime_3{
+		width:50%;
+		height:200px;
+		display:flex;
+		flex-direction:column;
+	}
+	.anime_4{
+		width:50%;
+		height:200px;
+		display:flex;
+		flex-direction:column;
+	}
+		.manga_5{
+		width:50%;
+		height:200px;
+		display:flex;
+		flex-direction:column;
+	}
+	.manga_6{
+		width:50%;
+		height:200px;
+		display:flex;
+		flex-direction:column;
+	}
+	.hard_skill{
+		width:70%;
+		height:1400px;
+		display:flex;
+		justify-content:space-around;
+		flex-direction:column;
+		align-items:center;
+	}
+	.soft_skill{
+		width:70%;
+		height:600px;
+		display:flex;
+		justify-content:space-around;
+		flex-direction:column;
+		align-items:center;
+	}
+	.l{
+		margin:2%;
+}
+	#menu__toggle {
+  opacity: 0;
+}
+
+#menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  left: 0;
+}
+
+.menu__btn {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+
+  width: 26px;
+  height: 26px;
+
+  cursor: pointer;
+  z-index: 1;
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+
+  width: 100%;
+  height: 2px;
+
+  background-color: #616161;
+
+  transition-duration: .25s;
+}
+.menu__btn > span::before {
+  content: '';
+  top: -8px;
+}
+.menu__btn > span::after {
+  content: '';
+  top: 8px;
+}
+
+.menu__box {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  left: -100%;
+
+  width: 300px;
+  height: 100%;
+
+  margin: 0;
+  padding: 80px 0;
+
+  list-style: none;
+
+  background-color: #ECEFF1;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+
+  transition-duration: .25s;
+}
+
+.menu__item {
+  display: block;
+  padding: 12px 24px;
+
+  color: #333;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+
+  text-decoration: none;
+
+  transition-duration: .25s;
+}
+.menu__item:hover {
+  background-color: #CFD8DC;
+}
+@media (max-width:480px){
+	main{
+		display:flex;
+		flex-direction:column;
+	}
+	.about_block{
+		width:100%;
+		height:3800px;
+		display:flex;
+		flex-direction:column;
+		justify-content:space-around;
+
+	}
+	.about_cont{
+		width:100%;
+		height:3800px;
+	}
+	.skills_block{
+		width:100%;
+	}
+	.filoma{
+		width:100%;
+		height:2500px;
+		display:flex;
+		flex-direction:column;
+		justify-content:space-around;
+	}
+	.pat{
+		width:100%;
+		height:700px;
+		display:flex;
+		flex-direction:column;
+	}
+	.films{
+		width:100%;
+		height:500px;
+		display:flex;
+		flex-direction:column;
+	}
+	.anime{
+		width:100%;
+		height:500px;
+		display:flex;
+		flex-direction:column;
+	}
+	.manga{
+		width:100%;
+		height:500px;
+		display:flex;
+		flex-direction:column;
+	}
+	.work{
+		display:flex;
+		flex-direction: column;
+		justify-content:space-around;
+
+	}
+	.vi{
+		width:59%;
+		height:400px;
+		margin:1.5%;
+	}
+	.vi2{
+		width:59%;
+		height:400px;
+		margin:1.5%;
+	}
+}
+video{
+	width:45%;
+	height:300px;
+}

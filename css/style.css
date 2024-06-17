@@ -505,7 +505,7 @@ border-top:2px solid #D4DBE2;
 		flex-direction:column;
 	}
 	header{
-		height:410px;
+		height:510px;
 		
 	}
 	.img1{
@@ -513,12 +513,12 @@ border-top:2px solid #D4DBE2;
 		height:40px;
 		
 	.imag{
-		width:40%;
-		height:380px;
+		width:60%;
+		height:350px;
 	}
 	.cont{
-		width:54%;
-		height:380px;
+		width:40%;
+		height:460px;
 		font-size:18px;
 	}
 	.about_block{
